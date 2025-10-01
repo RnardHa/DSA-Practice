@@ -1,6 +1,7 @@
 package com.pm;
 
 import com.pm.arraysAndHashing.*;
+import com.pm.twoPointers.*;
 
 import java.util.Arrays;
 
@@ -19,5 +20,13 @@ public class Main {
         System.out.println(i++ + ". Product of Array Except Self: " + Arrays.toString(new ProductOfArrayExceptSelf().solution()));
         System.out.println(i++ + ". Valid Sudoku: " + new ValidSudoku().solution());
         System.out.println(i++ + ". Longest Consecutive: " + new LongestConsecutiveSequence().solution());
+
+        System.out.println();
+        System.out.println("Two Pointers");
+        System.out.println(i++ + ". Valid Palindrome: " + new ValidPalindrome().solution());
+        System.out.println(i++ + ". Sorted Two Sum: " + Arrays.toString(new SortedTwoSum().solution()));
+        System.out.println(i++ + ". Three Sum: " + new ThreeSum().solution());
+        System.out.println(i++ + ". Container with most Water: " + new ContainerWithMostWater().solution());
+        System.out.println(i++ + ". Trapping Rain Water: " + new TrappingRainWater().solution());
     }
 }
