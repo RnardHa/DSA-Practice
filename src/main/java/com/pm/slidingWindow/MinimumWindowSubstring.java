@@ -44,7 +44,7 @@ public class MinimumWindowSubstring {
                 left++;
             }
         }
-        return resLen == Integer.MAX_VALUE ? "" : s.substring(res[1], res[0] + 1);
+        return resLen == Integer.MAX_VALUE ? "" : s.substring(res[0], res[1] + 1);
     }
 
     public String solution() {
