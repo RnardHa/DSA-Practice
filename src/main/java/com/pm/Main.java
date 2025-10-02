@@ -1,6 +1,8 @@
 package com.pm;
 
 import com.pm.arraysAndHashing.*;
+import com.pm.slidingWindow.*;
+import com.pm.stack.ValidParentheses;
 import com.pm.twoPointers.*;
 
 import java.util.Arrays;
@@ -28,5 +30,17 @@ public class Main {
         System.out.println(i++ + ". Three Sum: " + new ThreeSum().solution());
         System.out.println(i++ + ". Container with most Water: " + new ContainerWithMostWater().solution());
         System.out.println(i++ + ". Trapping Rain Water: " + new TrappingRainWater().solution());
+
+        System.out.println();
+        System.out.println("Sliding Window");
+        System.out.println(i++ + ". Best Time to Buy and Sell Stock: " + new BestTimeToBuyAndSellStock().solution());
+        System.out.println(i++ + ". Longest Substring Without Repeating Characters: " + new LongestSubstringWithoutRepeatingCharacters().solution());
+        System.out.println(i++ + ". Longest Repeating Characters: " + new LongestRepeatingCharacterReplacement().solution());
+        System.out.println(i++ + ". Permutation in String: " + new PermutationInString().solution());
+        System.out.println(i++ + ". Min Window Substring: " + new MinimumWindowSubstring().solution());
+
+        System.out.println();
+        System.out.println("Stack");
+        System.out.println(i++ + ". Valid Parentheses: " + new ValidParentheses().solution());
     }
 }
