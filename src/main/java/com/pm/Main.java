@@ -1,7 +1,12 @@
 package com.pm;
 
 import com.pm.arraysAndHashing.*;
+import com.pm.random.SortIntByNoOf1Bits;
+import com.pm.random.UglyNumber;
 import com.pm.slidingWindow.*;
+import com.pm.stack.DailyTemp;
+import com.pm.stack.EvalRPN;
+import com.pm.stack.GenerateParentheses;
 import com.pm.stack.ValidParentheses;
 import com.pm.twoPointers.*;
 
@@ -42,5 +47,16 @@ public class Main {
         System.out.println();
         System.out.println("Stack");
         System.out.println(i++ + ". Valid Parentheses: " + new ValidParentheses().solution());
+        System.out.println(i++ + ". Evaluate RPN: " + new EvalRPN().solution());
+        System.out.println(i++ + ". Generate Parentheses: " + new GenerateParentheses().solution());
+        System.out.println(i++ + ". Daily Temp: " + Arrays.toString(new DailyTemp().solution()));
+
+        System.out.println();
+        System.out.println("Random");
+        System.out.println(i++ + ". Sort by no of 1 in Bits: " + Arrays.toString(new SortIntByNoOf1Bits().solution()));
+        System.out.println(i++ + ". Ugly Number: " + new UglyNumber().solution());
+
+
+
     }
 }

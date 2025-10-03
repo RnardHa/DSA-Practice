@@ -25,10 +25,10 @@ public class MinStack {
     }
 
     public int top() {
-        stack.peek();
+        return stack.peek();
     }
 
     public int getMin() {
-        minStack.peek();
+        return minStack.peek();
     }
 }
