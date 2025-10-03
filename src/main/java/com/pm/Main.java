@@ -1,6 +1,7 @@
 package com.pm;
 
 import com.pm.arraysAndHashing.*;
+import com.pm.binarySearch.*;
 import com.pm.random.SortIntByNoOf1Bits;
 import com.pm.random.UglyNumber;
 import com.pm.slidingWindow.*;
@@ -56,6 +57,13 @@ public class Main {
         System.out.println(i++ + ". Sort by no of 1 in Bits: " + Arrays.toString(new SortIntByNoOf1Bits().solution()));
         System.out.println(i++ + ". Ugly Number: " + new UglyNumber().solution());
 
+        System.out.println();
+        System.out.println("Binary Search");
+        System.out.println(i++ + ". Binary Search: " + new BinarySearch().solution());
+        System.out.println(i++ + ". Search 2D Array: " + new Search2DMatrix().solution());
+        System.out.println(i++ + ". Koko Eating Banana: " + new KokoEatingBanana().solution());
+        System.out.println(i++ + ". Min in rotated sorted arr: " + new FindMinInRotatedSortedArr().solution());
+        System.out.println(i++ + ". Search in rotated sorted arr: " + new SearchInRotatedSortedArr().solution());
 
 
     }
